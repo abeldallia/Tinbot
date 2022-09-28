@@ -1,34 +1,53 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 	<head>
 		<title></title>
 	</head>
-	<body background="http://versadus.com/images/versadus-real-background.jpg">
-		<div style="text-align: left;">
+	<body>
+		<div style="text-align: center;">
+			PORTAL TINBOT</div>
+		<div style="text-align: center;">
 			&nbsp;</div>
-		<div style="text-align: left;">
+		<div style="text-align: center;">
 			&nbsp;</div>
-		<div style="text-align: left;">
+		<div style="text-align: center;">
 			&nbsp;</div>
-		<div style="text-align: left;">
-			&nbsp;</div>
-		<div style="text-align: left;">
-			<table border="1" cellpadding="1" cellspacing="1" style="width: 150px">
+		<div style="text-align: center;">
+			<table border="0" cellpadding="10" cellspacing="1">
 				<tbody>
 					<tr>
 						<td>
-							<button onclick="dancinha()">Dancinha</button>
+							<button style="height:50px;width:150px" onclick="dancinha()">Dancinha</button>
 						<td>
-							<button onclick="tchau()">Falar tchau</button>
+							<button style="height:50px;width:150px" onclick="namoantigo()">Namora antigo</button>
 						<td>
-							<button onclick="oi()">Falar oi</button>
+							<button style="height:50px;width:150px" onclick="namorada()">Namorada</button>
 					</tr>
 					<tr>
 						<td>
-							&nbsp;</td>
+							<button style="height:50px;width:150px" onclick="testebraco()">Teste braços</button>
+							</td>
 						<td>
-							&nbsp;</td>
+							<button style="height:50px;width:150px" onclick="testebraco()">Teste braços</button>
+							</td>
 						<td>
-							&nbsp;</td>
+							<button style="height:50px;width:150px" onclick="testebraco()">Teste braços</button>
+							</td>
+					</tr>
+					<tr>
+						<td>
+							<button style="height:50px;width:150px" onclick="testebraco()">Teste braços</button>
+						<td>
+							<button style="height:50px;width:150px" onclick="testebraco()">Teste braços</button>
+						<td>
+							<button style="height:50px;width:150px" onclick="testebraco()">Teste braços</button>
+					</tr>
+					<tr>
+						<td>
+							<button style="height:50px;width:150px" onclick="testebraco()">Teste braços</button>
+						<td>
+							<button style="height:50px;width:150px" onclick="testebraco()">Teste braços</button>
+						<td>
+							<button style="height:50px;width:150px" onclick="testebraco()">Teste braços</button>
 					</tr>
 					<tr>
 						<td>
@@ -54,32 +73,35 @@
 				var http = new XMLHttpRequest();
 				var url = 'https://prodapi.tinbot.club/hooks/997738f0-dc25-4383-a3e6-48a5574331bd?robotname=tinbot2040&actioncode=4840';
 				var params = ''
-				
 				http.open("GET", url, true);
-				http.onreadystatechange = function() {
-					if(http.readyState == 4 && http.status == 200) {
-						alert(http.responseText);
-					}
-				}
 				http.send(params);
-				console.log("oi")
+				
 			};
 
-			function tchau() {
+			function namoantigo() {
 				var http = new XMLHttpRequest();
-				var url = 'https://prodapi.tinbot.club/hooks/997738f0-dc25-4383-a3e6-48a5574331bd?robotname=tinbot2040&ticotico=tchau';
+				var url = 'https://prodapi.tinbot.club/hooks/997738f0-dc25-4383-a3e6-48a5574331bd?robotname=tinbot2040&actioncode=850';
 				var params = ''
-				
 				http.open("GET", url, true);
-				http.onreadystatechange = function() {
-					if(http.readyState == 4 && http.status == 200) {
-						alert(http.responseText);
-					}
-				}
 				http.send(params);
-				console.log("tchau")
+				
 			}
 		
+			function namorada() {
+				var http = new XMLHttpRequest();
+				var url = 'https://prodapi.tinbot.club/hooks/997738f0-dc25-4383-a3e6-48a5574331bd?robotname=tinbot2040&actioncode=4842';
+				var params = ''
+				http.open("GET", url, true);
+				http.send(params);
+			}
+			
+			function testebraco() {
+				var http = new XMLHttpRequest();
+				var url = 'https://prodapi.tinbot.club/hooks/997738f0-dc25-4383-a3e6-48a5574331bd?robotname=tinbot2040&actioncode=4373';
+				var params = ''
+				http.open("GET", url, true);
+				http.send(params);
+			}
 			</script>
 
 	</body>
