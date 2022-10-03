@@ -1,82 +1,43 @@
 <html>
 	<head>
 		<title></title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<style>button{width: 300px; height: 75px; max-width: 100%} body{font-size: 50px; height: 100vh; margin: auto; width: 100%;}</style>
 	</head>
 	<body>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<div style="text-align: center;">
 			<font size="100" face="Courier New">PORTAL TINBOT</font></div>
 		<div style="text-align: center;">
 			&nbsp;</div>
 				
-		<div style="text-align: center;">
-			<table  style= "margin: 0 auto;" border="0" cellpadding="10" cellspacing="1">
-				<tbody>
-					<tr>
-						<td>
-							<button style="font-size : 50px; height:110px;width:350px;" onclick="dancinha()">Dancinha</button>
-						<td>
-							<button style="font-size : 50px; height:110px;width:350px" onclick="namoantigo()">Namora antigo</button>
-						<td>
-							<button style="font-size : 50px; height:110px;width:350px" onclick="namorada()">Namorada</button>
-					</tr>
-					<tr>
-						<td>
-							<button style="font-size : 50px; height:110px;width:350px" onclick="meupai()">MEU PAI</button>
-							</td>
-						<td>
-							<button style="font-size : 50px; height:110px;width:350px" onclick="seupai()">SEU PAI</button>
-							</td>
-						<td>
-							<button style="font-size : 50px; height:110px;width:350px" onclick="sextou()">SEXTOU</button>
-							</td>
-					</tr>
-					<tr>
-						<td>
-							<button style="font-size : 50px; height:110px;width:350px" onclick="ironman()">IRONMAN</button>
-						<td>
-							<button style="font-size : 50px; height:110px;width:350px" onclick="dominacao()">DOMINAÇÃO</button>
-						<td>
-							<button style="font-size : 50px; height:110px;width:350px" onclick="conversar()">CONVERSAR</button>
-					</tr>
-					<tr>
-						<td>
-							<button style="font-size : 50px; height:110px;width:350px" onclick="charada()">CHARADA</button>
-						<td>
-							<button style="font-size : 50px; height:110px;width:350px" onclick="banheiro()">BANHEIRO</button>
-						<td>
-							<button style="font-size : 50px; height:110px;width:350px" onclick="professor()">PROFESSOR</button>
-					</tr>
-					<tr>
-						<td>
-							<button style="font-size : 50px; height:110px;width:350px" onclick="professora()">PROFESSORA</button>
-						<td>
-							<button style="font-size : 50px; height:110px;width:350px" onclick="discord()">DISCORD</button>
-						<td>
-							<button style="font-size : 50px; height:110px;width:350px" onclick="time()">TIME</button>
-					</tr>
-					<tr>
-						<td>
-							<button style="font-size : 50px; height:110px;width:350px" onclick="coelho()">COELHO</button>
-						<td>
-							<button style="font-size : 50px; height:110px;width:350px" onclick="r2d2()">R2D2</button>
-						<td>
-							<button style="font-size : 50px; height:110px;width:350px" onclick="live()">LIVE</button>
-					</tr>
-					<tr>
-						<td>
-							<button style="font-size : 50px; height:110px;width:350px" onclick="testebraco()">TESTE BRAÇO</button>
-						<td>
-							<button style="font-size : 50px; height:110px;width:350px" onclick="acertar()">ACERTAR</button>
-						<td>
-							<button style="font-size : 50px; height:110px;width:350px" onclick="acertar()">ACERTAR</button>
-					</tr>
-				</tbody>
-			</table>
+				
+		<div style="display: flex; flex-wrap:wrap; gap: 20px; justify-content: center; width: 1200px; max-width: 100%">
+							<button type="button" class="btn btn-primary" onclick="dancinha()">Dancinha</button>
+							<button type="button" class="btn btn-primary" onclick="namoantigo()">Namora antigo</button>
+							<button type="button" class="btn btn-primary" onclick="namorada()">Namorada</button>
+							<button type="button" class="btn btn-primary" onclick="meupai()">MEU PAI</button>
+							<button type="button" class="btn btn-primary" onclick="seupai()">SEU PAI</button>
+							<button type="button" class="btn btn-primary" onclick="sextou()">SEXTOU</button>
+							<button type="button" class="btn btn-primary" onclick="ironman()">IRONMAN</button>
+							<button type="button" class="btn btn-primary" onclick="dominacao()">DOMINAÇÃO</button>
+							<button type="button" class="btn btn-primary" onclick="conversar()">CONVERSAR</button>
+							<button type="button" class="btn btn-primary" onclick="charada()">CHARADA</button>
+							<button type="button" class="btn btn-primary" onclick="banheiro()">BANHEIRO</button>
+							<button type="button" class="btn btn-primary" onclick="professor()">PROFESSOR</button>
+							<button type="button" class="btn btn-primary" onclick="professora()">PROFESSORA</button>
+							<button type="button" class="btn btn-primary" onclick="discord()">DISCORD</button>
+							<button type="button" class="btn btn-primary" onclick="time()">TIME</button>
+							<button type="button" class="btn btn-primary" onclick="coelho()">COELHO</button>
+							<button type="button" class="btn btn-primary" onclick="r2d2()">R2D2</button>
+							<button type="button" class="btn btn-primary" onclick="live()">LIVE</button>
+							<button type="button" class="btn btn-primary" onclick="testebraco()">TESTE BRAÇO</button>
+							<button type="button" class="btn btn-primary" onclick="acertar()">ACERTAR</button>
+							<button type="button" class="btn btn-primary" onclick="acertar2()">ACERTAR2</button>
 		</div>
-
-		<p>
-			&nbsp;</p>
 
 		<script>
 			function dancinha() {
@@ -105,7 +66,151 @@
 				http.send(params);
 			};
 			
+			function meupai() {
+				var http = new XMLHttpRequest();
+				var url = 'https://prodapi.tinbot.club/hooks/997738f0-dc25-4383-a3e6-48a5574331bd?robotname=tinbot2040&actioncode=4890';
+				var params = ''
+				http.open("GET", url, true);
+				http.send(params);
+				
+			};
+						
+			function seupai() {
+				var http = new XMLHttpRequest();
+				var url = 'https://prodapi.tinbot.club/hooks/997738f0-dc25-4383-a3e6-48a5574331bd?robotname=tinbot2040&actioncode=5027';
+				var params = ''
+				http.open("GET", url, true);
+				http.send(params);
+				
+			};
+						
+			function sextou() {
+				var http = new XMLHttpRequest();
+				var url = 'https://prodapi.tinbot.club/hooks/997738f0-dc25-4383-a3e6-48a5574331bd?robotname=tinbot2040&actioncode=5027';
+				var params = ''
+				http.open("GET", url, true);
+				http.send(params);
+				
+			};
+						
+			function ironman() {
+				var http = new XMLHttpRequest();
+				var url = 'https://prodapi.tinbot.club/hooks/997738f0-dc25-4383-a3e6-48a5574331bd?robotname=tinbot2040&actioncode=5027';
+				var params = ''
+				http.open("GET", url, true);
+				http.send(params);
+				
+			};
+						
+			function dominacao() {
+				var http = new XMLHttpRequest();
+				var url = 'https://prodapi.tinbot.club/hooks/997738f0-dc25-4383-a3e6-48a5574331bd?robotname=tinbot2040&actioncode=5027';
+				var params = ''
+				http.open("GET", url, true);
+				http.send(params);
+				
+			};
+						
+			function conversar() {
+				var http = new XMLHttpRequest();
+				var url = 'https://prodapi.tinbot.club/hooks/997738f0-dc25-4383-a3e6-48a5574331bd?robotname=tinbot2040&actioncode=5027';
+				var params = ''
+				http.open("GET", url, true);
+				http.send(params);
+				
+			};
+						
+			function charada() {
+				var http = new XMLHttpRequest();
+				var url = 'https://prodapi.tinbot.club/hooks/997738f0-dc25-4383-a3e6-48a5574331bd?robotname=tinbot2040&actioncode=5027';
+				var params = ''
+				http.open("GET", url, true);
+				http.send(params);
+				
+			};
+						
 			function banheiro() {
+				var http = new XMLHttpRequest();
+				var url = 'https://prodapi.tinbot.club/hooks/997738f0-dc25-4383-a3e6-48a5574331bd?robotname=tinbot2040&actioncode=5027';
+				var params = ''
+				http.open("GET", url, true);
+				http.send(params);
+				
+			};
+						
+			function professor() {
+				var http = new XMLHttpRequest();
+				var url = 'https://prodapi.tinbot.club/hooks/997738f0-dc25-4383-a3e6-48a5574331bd?robotname=tinbot2040&actioncode=5027';
+				var params = ''
+				http.open("GET", url, true);
+				http.send(params);
+				
+			};
+						
+			function professora() {
+				var http = new XMLHttpRequest();
+				var url = 'https://prodapi.tinbot.club/hooks/997738f0-dc25-4383-a3e6-48a5574331bd?robotname=tinbot2040&actioncode=5027';
+				var params = ''
+				http.open("GET", url, true);
+				http.send(params);
+				
+			};
+						
+			function discord() {
+				var http = new XMLHttpRequest();
+				var url = 'https://prodapi.tinbot.club/hooks/997738f0-dc25-4383-a3e6-48a5574331bd?robotname=tinbot2040&actioncode=5027';
+				var params = ''
+				http.open("GET", url, true);
+				http.send(params);
+				
+			};
+						
+			function time() {
+				var http = new XMLHttpRequest();
+				var url = 'https://prodapi.tinbot.club/hooks/997738f0-dc25-4383-a3e6-48a5574331bd?robotname=tinbot2040&actioncode=5027';
+				var params = ''
+				http.open("GET", url, true);
+				http.send(params);
+				
+			};
+						
+			function coelho() {
+				var http = new XMLHttpRequest();
+				var url = 'https://prodapi.tinbot.club/hooks/997738f0-dc25-4383-a3e6-48a5574331bd?robotname=tinbot2040&actioncode=5027';
+				var params = ''
+				http.open("GET", url, true);
+				http.send(params);
+				
+			};
+						
+			function r2d2() {
+				var http = new XMLHttpRequest();
+				var url = 'https://prodapi.tinbot.club/hooks/997738f0-dc25-4383-a3e6-48a5574331bd?robotname=tinbot2040&actioncode=5027';
+				var params = ''
+				http.open("GET", url, true);
+				http.send(params);
+				
+			};
+						
+			function live() {
+				var http = new XMLHttpRequest();
+				var url = 'https://prodapi.tinbot.club/hooks/997738f0-dc25-4383-a3e6-48a5574331bd?robotname=tinbot2040&actioncode=5027';
+				var params = ''
+				http.open("GET", url, true);
+				http.send(params);
+				
+			};
+						
+			function acertar() {
+				var http = new XMLHttpRequest();
+				var url = 'https://prodapi.tinbot.club/hooks/997738f0-dc25-4383-a3e6-48a5574331bd?robotname=tinbot2040&actioncode=5027';
+				var params = ''
+				http.open("GET", url, true);
+				http.send(params);
+				
+			};
+						
+			function acertar2() {
 				var http = new XMLHttpRequest();
 				var url = 'https://prodapi.tinbot.club/hooks/997738f0-dc25-4383-a3e6-48a5574331bd?robotname=tinbot2040&actioncode=5027';
 				var params = ''
@@ -125,4 +230,3 @@
 
 	</body>
 </html>
-
