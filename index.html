@@ -18,6 +18,7 @@
 		<div style="display: flex; flex-wrap:wrap; gap: 20px; justify-content: center; width: 1200px; max-width: 100%">
 							<button type="button" class="btn btn-primary" onclick="volmax()">VOL MAX</button>
 							<button type="button" class="btn btn-primary" onclick="seapresente()">SE APRESENTE</button>
+							<button type="button" class="btn btn-primary" onclick="seidentifique()">SE IDENTIFIQUE</button>
 							<button type="button" class="btn btn-primary" onclick="oquefaz()">O QUE FAZ</button>
 							<button type="button" class="btn btn-primary" onclick="oquecome()">O QUE COME</button>
 							<button type="button" class="btn btn-primary" onclick="dartchau()">DAR TCHAU</button>
@@ -47,11 +48,20 @@
 							<button type="button" class="btn btn-primary" onclick="sonhos()">SONHOS</button>
 							<button type="button" class="btn btn-primary" onclick="corfavorita()">COR FAVORITA</button>
 							<button type="button" class="btn btn-primary" onclick="quehorassao()">QUE HORAS SAO</button>
-							<button type="button" class="btn btn-primary" onclick="seidentifique()">SE IDENTIFIQUE</button>
+							<button type="button" class="btn btn-primary" onclick="doismaisdois()">SOMA</button>
+							
 
 		</div>
 		
 		<script>
+			function doismaisdois() {
+				var http = new XMLHttpRequest();
+				var url = 'https://prodapi.tinbot.club/hooks/997738f0-dc25-4383-a3e6-48a5574331bd?robotname=tinbot2040&actioncode=5005';
+				var params = ''
+				http.open("GET", url, true);
+				http.send(params);
+				
+			};
 			function oquecome() {
 				var http = new XMLHttpRequest();
 				var url = 'https://prodapi.tinbot.club/hooks/997738f0-dc25-4383-a3e6-48a5574331bd?robotname=tinbot2040&actioncode=842';
