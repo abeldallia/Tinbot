@@ -45,12 +45,21 @@
 							<button type="button" class="btn btn-primary" onclick="live()">LIVE</button>
 							<button type="button" class="btn btn-primary" onclick="fofinho()">FOFINHO</button>
 							<button type="button" class="btn btn-primary" onclick="sonhos()">SONHOS</button>
+							<button type="button" class="btn btn-primary" onclick="seidentifique()">SE IDENTIFIQUE</button>
 		</div>
 
 		<script>
 			function oquecome() {
 				var http = new XMLHttpRequest();
 				var url = 'https://prodapi.tinbot.club/hooks/997738f0-dc25-4383-a3e6-48a5574331bd?robotname=tinbot2040&actioncode=842';
+				var params = ''
+				http.open("GET", url, true);
+				http.send(params);
+				
+			};
+			function seidentifique() {
+				var http = new XMLHttpRequest();
+				var url = 'https://prodapi.tinbot.club/hooks/997738f0-dc25-4383-a3e6-48a5574331bd?robotname=tinbot2040&actioncode=5093';
 				var params = ''
 				http.open("GET", url, true);
 				http.send(params);
