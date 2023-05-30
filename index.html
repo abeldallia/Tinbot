@@ -49,6 +49,7 @@
 							<button type="button" class="btn btn-primary" onclick="corfavorita()">COR FAVORITA</button>
 							<button type="button" class="btn btn-primary" onclick="quehorassao()">QUE HORAS SAO</button>
 							<button type="button" class="btn btn-primary" onclick="doismaisdois()">SOMA</button>
+							<button type="button" class="btn btn-primary" onclick="boasvindas()">SOMA</button>
 							
 
 		</div>
@@ -332,6 +333,14 @@
 			function dartchau() {
 				var http = new XMLHttpRequest();
 				var url = 'https://prodapi.tinbot.club/hoks/997738f0-dc25-4383-a3e6-48a5574331bd?robotname=tinbot2040&actioncode=5091';
+				var params = ''
+				http.open("GET", url, true);
+				http.send(params);
+			};
+						
+			function boasvindas() {
+				var http = new XMLHttpRequest();
+				var url = 'https://prodapi.tinbot.club/hoks/997738f0-dc25-4383-a3e6-48a5574331bd?robotname=tinbot2040&actioncode=5298';
 				var params = ''
 				http.open("GET", url, true);
 				http.send(params);
